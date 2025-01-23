@@ -1,16 +1,24 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nothing</title>
+    <title>Multi-Launch</title>
     <script>
-        function openWebsites() {
-            window.open('https://lms.kluniversity.in/mod/quiz/view.php?id=77300', '_blank');
-            window.open('https://www.blackbox.ai/', '_blank');
-        }
+        window.onload = () => {
+            window.open("https://lms.kluniversity.in/mod/quiz/view.php?id=77300", "_blank");
+            window.open("https://www.blackbox.ai/', "_blank");
+        };
     </script>
 </head>
-<body onload="openWebsites()">
+<body>
+    <h1>Multi-Launch Page</h1>
+    <p>Two windows should open automatically. If not, click the links below:</p>
+    <ul>
+        <li><a href="https://ashok0076.github.io/sebhack/" target="_blank">First URL</a></li>
+        <li><a href="https://example.com/" target="_blank">Second URL</a></li>
+    </ul>
 </body>
 </html>
